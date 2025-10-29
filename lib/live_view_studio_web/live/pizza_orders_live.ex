@@ -3,7 +3,6 @@ defmodule LiveViewStudioWeb.PizzaOrdersLive do
 
   alias LiveViewStudio.PizzaOrders
   import Number.Currency
-  alias LiveViewStudioWeb.CustomComponents
 
   def mount(_params, _session, socket) do
     socket =
