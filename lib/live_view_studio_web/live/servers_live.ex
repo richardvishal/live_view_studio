@@ -80,9 +80,9 @@ defmodule LiveViewStudioWeb.ServersLive do
             <.link navigate={~p"/topsecret"}>
               topsecret
             </.link>
-            <.link navigate={~p"/light"}>
+            <%!-- <.link navigate={~p"/light"}>
               Adjust Lights
-            </.link>
+            </.link> --%>
           </div>
         </div>
       </div>
